@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirari Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="path-to-your-hero-image.jpg" alt="Mirari Skincare">
+            <h1>Unveil Your Radiance with Mirari Skincare</h1>
+            <p>Transform your skin with our tailored solutions—because your beauty deserves the best.</p>
+        </div>
+    </header>
+    <main>
+        <section class="offer">
+            <h2>Personalized Skincare Consultation</h2>
+            <p>Get a free personalized skincare consultation to discover the best routine for your unique skin needs. Our experts will guide you to achieve your most radiant self.</p>
+            <h2>Exclusive Discounts</h2>
+            <p>Enjoy an exclusive discount on your first purchase! Sign up now and receive 20% off your order as a welcome gift from Mirari.</p>
+            <h2>Free Shipping</h2>
+            <p>Experience the convenience of free shipping on all orders. No minimum required—shop with ease and enjoy your Mirari products delivered straight to your door.</p>
+            <h2>Educational Content</h2>
+            <p>Gain access to our exclusive skincare tips, routines, and tutorials. Learn how to make the most of your skincare regimen with expert advice tailored just for you.</p>
+        </section>
+        <section class="signup">
+            <h2>Sign Up Now and Unlock Your Beauty Potential!</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="skinType">Skin Type:</label>
+                <select id="skinType" name="skinType">
+                    <option value="Oily">Oily</option>
+                    <option value="Dry">Dry</option>
+                    <option value="Combination">Combination</option>
+                    <option value="Sensitive">Sensitive</option>
+                </select>
+                
+                <label for="concern">Main Skincare Concern:</label>
+                <select id="concern" name="concern">
+                    <option value="Acne">Acne</option>
+                    <option value="Aging">Aging</option>
+                    <option value="Hydration">Hydration</option>
+                </select>
+                
+                <label for="contactMethod">Preferred Contact Method:</label>
+                <select id="contactMethod" name="contactMethod">
+                    <option value="Email">Email</option>
+                    <option value="Phone">Phone</option>
+                </select>
+                
+                <label>
+                    <input type="checkbox" name="consent" required>
+                    I agree to receive promotional emails and updates from Mirari Skincare.
+                </label>
+                
+                <button type="submit">Sign Up Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="privacy-policy.html">Privacy Policy</a>
+    </footer>
+</body>
+</html>
+git add .
+git commit -m "Fix CSS issues and update landing page"
+git push origin main
